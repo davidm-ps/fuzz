@@ -31,6 +31,7 @@ setup(
     ],
     python_requires='>=3.7',
     install_requires=[
+        "httpx>=0.24.0,<0.25.0",
         "openai==1.6.1",
         "langchain==0.0.353",
         "langchain-community==0.0.7",
